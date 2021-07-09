@@ -1,0 +1,97 @@
+#body
+{
+    margin: 0;
+    padding: 0;
+    background-color:rosybrown;
+}
+
+/*-------Navigation--------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img
+{
+    padding-left: 30px;
+    height: 40px;
+}
+
+.navbar-nav li
+{ 
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+    color: 229, 56, 59!important;
+}
+
+.navbar
+{
+    background:245, 243, 244;
+}
+
+.navbar-toggler
+{
+    border:none!important;
+}
+
+.nav-link
+{
+    color:11, 9, 10!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*------Slider------*/
+#slider
+{
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.carousel-caption
+{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+
+.carousel-caption h5
+{
+    font-size: 40px;
+}
+
+/*--batik--*/
+.batik-judul 
+{
+    color:navajowhite;
+    text-align: center;
+    font-family:'Abril Fatface', cursive;
+    margin-top: 50px;
+    padding-top: 50px
+}
+
+/*--sumatra-*/
+#sumatra
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    align-content: stretch;
+}
+
+/*---after form--*/
+#selesai
+{
+    margin-top: 50px;
+}

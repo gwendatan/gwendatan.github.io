@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the batik lab.</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">    
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <style>
+        body, html {
+          height: 100%;
+          font-family: "Inconsolata", sans-serif;
+        }
+
+        .how {
+          display:flexbox;
+        }
+    </style>
+
+</head>
+<body>
+<!-- Navigation Bar -->
+<section id="nav-bar">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="https://i.pinimg.com/236x/1b/d9/ce/1bd9ce5059aa368278d7f2f0fac8098a.jpg" class="d-inline-block align-top rounded-circle" alt=""> The Batik Lab.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#batik">BATIK</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#how">HOW</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#around">AROUND INDONESIA</a>
+            </li>
+            <li class="nav-item">
+            <li class="nav-item">
+                <a class="nav-link" href="#shop">SHOPS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+<!-- Slider -->
+<div id="slider">
+    <div id="headerSlider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+          <li data-target="#headerSlider" data-slide-to="1"></li>
+          <li data-target="#headerSlider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://farm3.staticflickr.com/2478/3973798279_1ff089a7d2_z.jpg" alt="First slide">
+                <div class="carousel-caption">
+                    <h5><span class="w3-tag w3-wide">Batik in Indonesia</span></h5>
+                    <p>courtesy of Flickr</p>
+                </div>
+            </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://lapol0.s3.amazonaws.com/media/None/Cover_9kO4lwx.jpg" alt="Second slide">
+                <div class="carousel-caption">
+                    <h5><span class="w3-tag w3-wide">Batik in the Making</span></h5>
+                    <p>courtesy of www.lapolo.in</p>
+                </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://i.pinimg.com/originals/18/43/bf/1843bf71984ce3c447f15e8a561cbd07.jpg" alt="Third slide">
+                <div class="carousel-caption">
+                    <h5><span class="w3-tag w3-wide">Batik Tulis</span></h5>
+                    <p>courtesy of Pinterest</p>
+                </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://4.bp.blogspot.com/-fvC1cJ4nY3o/WxIimiyLZwI/AAAAAAAADJo/v2zZ3bhX1Q4dUl93WJZZyx3vp2hZ2Wq6ACLcBGAs/s1600/Batik%2BJember.jpg" alt="Fourth slide">
+                <div class="carousel-caption">
+                    <h5><span class="w3-tag w3-wide">Jember's Signature Batik Pattern : Tobacco Leaves</span></h5>
+                    <p>courtesy of www.lensabudaya.com</p>
+                </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</div>
+</section>
+
+
+<!----batik--->
+<div class="w3-container" id="batik">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">INTRODUCTION TO BATIK</span></h5>
+    <p>Batik adalah teknik mewarnai yang dikenal di seluruh dunia dan tercantum dalam Daftar Warisan Kemanusiaan untuk Budaya Nonbendawi (Masterpieces of the Oral and Intangible Heritage of Humanity) oleh UNESCO. Meskipun batik adalah kata dalam bahasa Jawa, teknik itu sendiri dikenal di seluruh dunia dan ada di berbagai budaya dan tradisi. Namun, batik memiliki kehadiran yang mendalam di Indonesia sehingga tidak mungkin dilewatkan.</p>
+    <p>Kata batik sendiri muncul pada abad ke-8. Menurut Kakawin Ramayana, kata batik berasal dari kata tika, yang berarti ‘lukisan suci.’ Nama dari teknik pewarnaan dengan lilin ini juga berasal di kata bahasa Jawa ambatik, yang terdiri dari amba yang berarti ‘untuk menulis’ dan tik yang berarti ‘titik’ atau ‘membuat titik.’ Merujuk pada pepatah Jawa kuno, Mbatik Manah, batik bisa berarti juga ‘melukis sepenuh hati.’ Di Indonesia sendiri, hampir semua daerah memiliki batiknya sendiri.</p>
+
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Ada anggapan bahwa akhiran “tik” dari kata batik berasal dari kata “menitik; menetes”. Di sisi lain, perkataan batik dalam bahasa Jawa (Kromo) berarti ‘serat’ dan dalam bahasa Jawa (Ngoko) berarti ‘tulis’. Kesimpulannya, batik dapat diartikan ‘melukis dengan (menitik) lilin’."</i></p>
+      <p>(Susanto, 2012: 51)</p>
+    </div>
+    
+    <img src="https://lapol0.s3.amazonaws.com/media/None/Rectangle_2173.jpg" style="width:100%;max-width:1000px" class="w3-margin-top class w3-center w3-animate-bottom">
+    <ul>
+        <li><strong>Batik =</strong> sebuah istilah yang diberikan pada tekstil tradisional yang dibuat dengan teknik rintang malam menggunakan lelehan lilin malam panas dan pewarna alami. Kain Batik memiliki kekhasan pola dan ornamen yang rumit, serta sarat dengan nilai-nilai filosofis yang mencerminkan identitas bangsa Indonesia.</li>
+        <li><strong>Kata "Batik" :</strong> dari bahasa Jawa -> kata ‘Amba’ yang berarti “lebar” + ‘nithik’ yang berarti “menuliskan titik-titik”. Secara terminologi, arti kata Batik menjelaskan sebuah proses melukis titik pada kain yang lebar.</li>
+        <li>Dalam literatur sejarah kitab kuno Kakawin 870 AD, kata Batik juga merupakan turunan dari frasa <strong>‘mbathik manah’, yang berarti “menggambar dengan sepenuh hati”</strong></li>
+        <li><strong>Durasi pembuatan:</strong> 1 bulan - 2 tahun per tekstil (tergantung pada kerumitannya)</li>
+    </ul>
+  </div>
+</div>
+
+<!----how-->
+<div class="w3-container" id="how">
+    <div class="w3-content" style="max-width:700px">
+   
+      <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE TECHNIQUES & PROCESS</span></h5>
+    
+      <div class="w3-row w3-center w3-card w3-padding">
+        <a href="javascript:void(0)" onclick="openHow(event, 'Tulis');" id="myLink">
+          <div class="w3-col s6 tablink">Tulis</div>
+        </a>
+
+        <a href="javascript:void(0)" onclick="openHow(event, 'Cap');">
+          <div class="w3-col s6 tablink">Cap</div>
+        </a>
+      </div>
+  
+      <div id="Tulis" class="w3-container how w3-padding-48 w3-card">
+        <h5>Tahap #1A : Nglengreng (Pola Motif – Batik Tulis)</h5>
+        <p class="w3-text-grey">Nglengreng adalah proses menggambar pola Batik pada selembar kain linen dengan tangan, yang dilakukan dengan menggunakan lilin panas dan alat perunggu yang disebut Canting. Proses ini juga disebut Nyanting.</p><br>
+
+        <h5>Tahap #2 : Nyelup (Pewarnaan Tekstil)</h5>
+        <p class="w3-text-grey">Nyelup mengacu pada proses perendaman tekstil Batik dalam gentong yang diisi dengan larutan pewarna alami / kimia.
+            Proses perendaman warna dapat memakan waktu berhari-hari bahkan berbulan-bulan tergantung pada kompleksitas desain Batik.</p><br>
+      
+        <h5>Tahap #3 : Nembok (Proses Penutupan Warna)</h5>
+        <p class="w3-text-grey">Nembok mengacu pada menutup gambar desain tertentu dengan lilin malam untuk melindungi gambar desain agar tidak dicelup.
+            Alat yang paling efektif untuk digunakan dalam proses ini adalah Canting dengan lubang yang lebih besar.</p><br>
+      
+        <h5>Tahap #4 : Nyolet (Teknik Lukis Warna)</h5>
+        <p class="w3-text-grey">Nyolet mengacu pada teknik melukis warna pola Batik dengan menggunakan kuas.
+            Para pengrajin menggunakan berbagai jenis kuas untuk melukis garis dan detail motif. Disarankan untuk menggunakan kuas yang besar untuk melukis latar kain dan yang kecil untuk pola motif yang lebih detil.</p><br>
+      
+        <h5>Tahap #5 : Nglorod (Pelepasan Malam Batik)</h5>
+        <p class="w3-text-grey">Nglorod mengacu pada proses pelepasan malam batik dengan mencuci tekstil Batik dalam air panas dengan campuran larutan soda ash (sodium carbonate). Setelah lilin dihilangkan, kain dicuci dengan air dingin.</p>
+
+        <h5>Tahap #6 : Njemur (Penjemuran Kain)</h5>
+        <p class="w3-text-grey">Njemur mengacu pada proses pengeringan kain. Proses pengeringan mungkin memakan waktu 1-2 hari tergantung cuaca. Setelah dikeringkan, tekstil harus dilipat dan disimpan dengan rapi di tempat kering dan terhindar dari sinar matahari langsung.</p>
+      </div>
+  
+      <div id="Cap" class="w3-container how w3-padding-48 w3-card">
+        <h5>Tahap #1B : Ngecap (Pola Motif - Batik Cap)</h5>
+        <p class="w3-text-grey">Ngecap adalah proses menghasilkan pola Batik pada selembar kain linen dengan menggunakan stempel perunggu yang diisi dengan lelehan malam panas. Proses ini juga dikenal dengan tekni cap.</p><br>
+      
+        <h5>Tahap #2 : Nyelup (Pewarnaan Tekstil)</h5>
+        <p class="w3-text-grey">Nyelup mengacu pada proses perendaman tekstil Batik dalam gentong yang diisi dengan larutan pewarna alami / kimia.
+            Proses perendaman warna dapat memakan waktu berhari-hari bahkan berbulan-bulan tergantung pada kompleksitas desain Batik.</p><br>
+      
+        <h5>Tahap #3 : Nembok (Proses Penutupan Warna)</h5>
+        <p class="w3-text-grey">Nembok mengacu pada menutup gambar desain tertentu dengan lilin malam untuk melindungi gambar desain agar tidak dicelup.
+            Alat yang paling efektif untuk digunakan dalam proses ini adalah Canting dengan lubang yang lebih besar.</p><br>
+      
+        <h5>Tahap #4 : Nyolet (Teknik Lukis Warna)</h5>
+        <p class="w3-text-grey">Nyolet mengacu pada teknik melukis warna pola Batik dengan menggunakan kuas.
+            Para pengrajin menggunakan berbagai jenis kuas untuk melukis garis dan detail motif. Disarankan untuk menggunakan kuas yang besar untuk melukis latar kain dan yang kecil untuk pola motif yang lebih detil.</p><br>
+      
+        <h5>Tahap #5 : Nglorod (Pelepasan Malam Batik)</h5>
+        <p class="w3-text-grey">Nglorod mengacu pada proses pelepasan malam batik dengan mencuci tekstil Batik dalam air panas dengan campuran larutan soda ash (sodium carbonate). Setelah lilin dihilangkan, kain dicuci dengan air dingin.</p>
+
+        <h5>Tahap #6 : Njemur (Penjemuran Kain)</h5>
+        <p class="w3-text-grey">Njemur mengacu pada proses pengeringan kain. Proses pengeringan mungkin memakan waktu 1-2 hari tergantung cuaca. Setelah dikeringkan, tekstil harus dilipat dan disimpan dengan rapi di tempat kering dan terhindar dari sinar matahari langsung.</p>
+      </div>
+
+      <img src="https://indonesia.go.id/assets/img/assets/1557722263_1994_economy_representatives_(1).jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+    </div>
+  </div>
+  
+<!--around indonesia-->
+<div class="card mb-3">
+    <div class="w3-container" id="around">
+        <div class="w3-content" style="max-width:700px">
+          <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">BATIK AROUND INDONESIA</span></h5>
+    <a href='sumatra.html'><img class="card-img-top w3-button" src="https://images.squarespace-cdn.com/content/v1/5af1298bfcf7fd60f31f66bd/1613702575384-KCAPBQ8U1NFZBHFFGO45/Tracing+batik+in+Sumatra+COVER+ARTICLE.png?format=1500w" alt="Card image cap"></a>
+    <div class="card-body">
+      <h5 class="card-title"><strong>Batik in SUMATRA</strong></h5>
+      <p class="card-text">DI Aceh - Sumatra Utara - Riau - Kepulauan Riau - Sumatra Barat - Bangka Belitung - Bengkulu - Jambi - Lampung - Sumatra Selatan</p>
+      <a href='sumatra.html'><button class="card-text w3-btn" ><small class="text-muted">click for more information</small></button></a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="w3-container" id="around">
+        <div class="w3-content" style="max-width:700px">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Batik in JAVA</strong></h5>
+      <p class="card-text">Banten - Jawa Tengah - Jawa Timur - Jawa Barat - DI Yogyakarta - DKI Jakarta</p>
+      <p class="card-text w3-btn"><small class="text-muted">click for more information</small></p>
+    </div>
+    <img class="card-img-bottom" src="https://images.squarespace-cdn.com/content/v1/5af1298bfcf7fd60f31f66bd/1613961741764-PH9XZ67RAVTWCXALV0ED/BATIK+COVER-05.jpg?format=1500w" alt="Card image cap">
+  </div>
+</div>
+
+<div class="card mb-3">
+    <div class="w3-container" id="around">
+        <div class="w3-content" style="max-width:700px">
+    <img class="card-img-top" src="https://images.squarespace-cdn.com/content/v1/5af1298bfcf7fd60f31f66bd/1614149402766-FPMY3JYIJZX48WL4PBL0/KEK+GINI+YA+GUYS-06.jpg?format=1500w" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Batik in BALI & KALIMANTAN</strong></h5>
+      <p class="card-text">Bali - Kalimantan Tengah - Kalimantan Timur - Kalimantan Utara - Kalimantan Selatan - Kalimantan Barat</p>
+      <p class="card-text w3-btn" ><small class="text-muted">click for more information</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="w3-container" id="around">
+        <div class="w3-content" style="max-width:700px">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Batik in SULAWESI</strong></h5>
+      <p class="card-text">Gorontalo - Sulawesi Tengah - Sulawesi Utara - Sulawesi Selatan - Sulawesi Tenggara - Sulawesi Barat</p>
+      <p class="card-text w3-btn"><small class="text-muted">click for more information</small></p>
+    </div>
+    <img class="card-img-bottom" src="https://images.squarespace-cdn.com/content/v1/5af1298bfcf7fd60f31f66bd/1614164913652-S6PZE4Z876364CRRJB2C/KEK+GINI+YA+GUYS-07.jpg?format=1500w" alt="Card image cap">
+  </div>
+</div>
+
+<div class="card mb-3">
+    <div class="w3-container" id="around">
+        <div class="w3-content" style="max-width:700px">
+    <img class="card-img-top" src="https://images.squarespace-cdn.com/content/v1/5af1298bfcf7fd60f31f66bd/1614598887008-AQVV2YBO7GOIM98KOHMO/batik-maluku%2C-nusa-tenggara%2C-papua-%28web%29.png?format=1500w" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Batik in MALUKU, NUSA TENGGARA & PAPUA</strong></h5>
+      <p class="card-text">Maluku - Maluku Utara - Nusa Tenggara Timur - Nusa Tenggara Barat - Papua</p>
+      <p class="card-text w3-btn" ><small class="text-muted">click for more information</small></p>
+    </div>
+  </div> 
+</div>
+
+<!--shop-->
+<div class="w3-container" id="shop">
+    <div class="w3-content" style="max-width:700px">
+      <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">WHERE TO SHOP?</span></h5>
+      <h2></h2>
+      <ul>
+          <li><a href='http://www.batikkeris.co.id/'>Batik Keris</a></li>
+          <li><a href='https://batiksisikmelik.com/'>Batik Sisikmelik</a></li>
+          <li><a href='https://arjunawedabatik.co.id/'>Batik Arjuna Weda</a></li>
+          <li><a href='https://bateeq.my.id/'>Bateeq</a></li>
+          <li><a href='https://www.balibatikproduct.com/'>Bali Batik Product</a></li>
+          <li><a href='https://batikunik.com/'>Batik Unik</a></li>
+          <li><a href='https://danarhadibatik.com/id'>Danar Hadi Batik</a></li>
+          <li><a href='https://www.instagram.com/kain.menggahagung/'>@kain.menggahung</a></li>
+          <li><a href='https://www.instagram.com/batikconceptstore/'>@batikconceptstore</a></li>
+          <li><a href='https://www.instagram.com/batikkultur/'>@batikkultur</a></li>
+          <li><a href='https://www.instagram.com/batiktjetje/'>@batiktjetje</a></li>
+          <li><a href='https://www.instagram.com/engrasia/'>@engrasia</a></li>
+          <li><a href='https://www.instagram.com/batik_rosethree/'>@batik_rosethree</a></li>
+          <li><a href='https://www.instagram.com/batikpelangi_/'>@batikpelangi_</a></li>
+          <li><a href='https://www.instagram.com/alleira_batik/'>@alleira_batik</a></li>
+          <li><a href='https://www.instagram.com/batikputeraningrat/'>@batikputeraningrat</a></li>
+          <li><a href='https://www.instagram.com/danarhadi_id/'>@danarhadi_id</a></li>
+          <li><a href='https://www.instagram.com/bhatarabatik/'>@bhatarabatik</a></li>
+          <li><a href='https://www.instagram.com/riantybatik/'>@riantybatik</a></li>
+          <li><a href='https://www.instagram.com/iwantirta_batik/'>@iwantirta_batik</a></li>
+          <li><a href='https://www.instagram.com/batikartora/'>@batikartora</a></li>
+      </ul>
+
+<!---contact us-->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+    <div class="w3-content" style="max-width:700px">
+      <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACT US</span></h5>
+      <p>For feedbacks, messages & collaboration.</p>
+      
+        <img src="https://goldwallpapers.com/uploads/posts/batik-wallpaper/batik_wallpaper_006.jpg" class="w3-image" style="width:100%">
+      <p><span class="w3-tag">FYI!</span> Kami juga menerima permintaan untuk kolaborasi & partnership dengan individu maupun kelompok!</p>
+      <p><strong>Contact us at</strong> thebatiklab@gmail.com (email) or @thebatiklaboratory.id (instagram) or just send us a message:</p>
+      <form action="afterform.html" target="response.html">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Requirements" required name="Message"></p>
+        <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+      </form>
+    </div>
+  </div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+    <p>FIND MORE ABOUT BATIK AT: <a href="https://www.iwarebatik.org/?lang=id" title="iwarebatik" target="_blank" class="w3-hover-text-green">iwarebatik.org</a></p>
+</footer>
+
+<script>
+    // Tabbed Menu
+    function openHow(evt, howTechnique) {
+      var i, x, tablinks;
+      x = document.getElementsByClassName("how");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+      }
+      document.getElementById(howTechnique).style.display = "block";
+      evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+    }
+    document.getElementById("myLink").click();
+</script>
+</body>
+</html>
